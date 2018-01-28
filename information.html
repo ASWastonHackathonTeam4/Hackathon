@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Item Information</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-item.css" rel="stylesheet">
+
+    <style> 
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a style="font-family: 'Helvetica Neue';font-size: 1.6vw " class="navbar-brand" href="#">DeliverMe</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="purchase.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">Transactions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3">
+          <h1 class="my-4">Watsons</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Health Care</a>
+            <a href="#" class="list-group-item">Personal Care</a>
+            <a href="#" class="list-group-item">Infant Care</a>
+            <a href="#" class="list-group-item">Daily Care</a>
+          </div>
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+          <div class="card mt-4">
+            <img class="card-img-top img-fluid" src="./img/lorealmilk.jpg" alt="">
+            <div class="card-body">
+              <h3 class="card-title">REVITALIFT MILKY FOAM</h3>
+              <h4>$85.00</h4>
+              <p class="card-text">
+              L'Oreal Revitalift Foam Wash is a daily cleanser that cleanses skin, removes make-up and eliminates impurities without drying out the skin. The cleanser contains anti-ageing and firming ingredients and Beta hydroxy acid, which exfoliates by lifting away dull skin cells.</p>
+              <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              4.8 stars
+            </div>
+
+                <li style="float: left" class="dropdown">
+                <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top" class="dropbtn">Quantity</a>
+                <div class="dropdown-content">
+                  <form action="/purchase.html">
+                        Number: <input type="Number" name="fname"><br>
+                        <input type="submit" value="Submit">
+                  </form>
+                </div>  
+                </li>
+                <li class="dropdown">
+                <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top" class="dropbtn">Date and Time</a>
+                <div class="dropdown-content">
+                  <form action="/purchase.html">
+                        Date and Time for Delivery <input type="datetime-local" name="fname"><br>
+                        <input type="submit" value="Submit">
+                  </form>
+                </div>  
+                </li>
+                <li class="dropdown">
+                <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top" class="dropbtn">Frequency</a>
+                <div class="dropdown-content">
+                  <form action="/purchase.html">
+                        If you want the order deliered in a cycle, please input time between delivery here in days: <input type="Number" name="fname"><br>
+                        <input type="submit" value="Submit">
+                  </form>
+                </div>  
+                </li>
+                <a class="w3-button w3-black w3-padding-large w3-large w3-margin-top" href="Checkout/Checkout.html"> Submit </a>
+
+
+          </div>
+          <!-- /.card -->
+
+
+          <!-- /.card -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; AS Wastons 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

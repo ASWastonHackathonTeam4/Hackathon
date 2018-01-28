@@ -77,7 +77,51 @@
           </form>
         </div>
         <div class="col-md-8 order-md-1">
-          <h4 class="mb-3">Delivery address</h4>
+            <h4 class="mb-3">Payment</h4>
+
+            <div class="card-group">
+  				<div class="card">
+   				  <img class="card-img-top" src="images/349220-credit-cards.png" alt="Card image cap">
+    				<div class="card-body">
+    				  <h5 class="card-title">Credit Card </h5>
+    				  <p class="card-text">Pay here at the Machine using your recorded or previous credit card </p>
+    				</div>
+   					 <div class="card-footer">
+						 <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="customCheck1">
+  <label class="custom-control-label" for="customCheck1">Card</label>
+</div>
+    			</div>
+ 			 </div>
+ 				 <div class="card">
+   				   <img class="card-img-top" src="images/1200x630bb.jpg" alt="Card image cap">
+    				<div class="card-body">
+    				  <h5 class="card-title">Octopus Card</h5>
+    				  <p class="card-text">Pay here at the machine using your Octopus Card</p>
+    				</div>
+  				  <div class="card-footer">
+   					   <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="customCheck2">
+  <label class="custom-control-label" for="customCheck2">Octopus</label>
+</div>
+   				 </div>
+		  </div>
+			  <div class="card">
+    				<img class="card-img-top" src="images/cash-dark.png"alt="Card image cap">
+   					<div class="card-body">
+   					  <h5 class="card-title">Cash</h5>
+   					  <p class="card-text">Pay Cash at the Cash Kiosk</p>
+   					</div>
+   				 <div class="card-footer">
+     			  <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="customCheck3">
+  <label class="custom-control-label" for="customCheck3">Cash</label>
+</div>
+   				 </div>
+  </div>
+</div>      
+            <hr class="mb-4">
+			<h4 class="mb-3">Delivery address</h4>
           <form class="needs-validation" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
@@ -124,36 +168,7 @@
               <div class="invalid-feedback">
                 Please enter your shipping address.
               </div>
-            </div>
-
-            <div class="mb-3">
-              <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="">
-            </div>
-
-            <div class="row">
-              <div class="col-md-5 mb-3">
-                <label for="country">Country</label>
-                <select class="custom-select d-block w-100" id="country" required>
-                  <option value="">Choose...</option>
-				  <option value="Hong Kong SAR">Hong Kong SAR</option>
-                  <option>United States</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid country.
-                </div>
-              </div>
-              <div class="col-md-7 mb-3">
-                <label for="state">State/Province/District</label>
-                <select class="custom-select d-block w-100" id="state" required>
-                  <option value="">Choose...</option>
-                  <option>Central</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please provide a valid state.
-                </div>
-              </div>
-            </div>
+            </div> 
             <hr class="mb-4">
             <div class="custom-control custom-checkbox">
               <input type="checkbox" class="custom-control-input" id="same-address">
@@ -165,50 +180,6 @@
             </div>
             <hr class="mb-4">
 
-            <h4 class="mb-3">Payment</h4>
-
-            <div class="card-group">
-  				<div class="card">
-   				  <img class="card-img-top" src="images/349220-credit-cards.png" alt="Card image cap">
-    				<div class="card-body">
-    				  <h5 class="card-title">Credit Card </h5>
-    				  <p class="card-text">Pay here at the Machine using your recorded or previous credit card </p>
-    				</div>
-   					 <div class="card-footer">
-						 <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck1">
-  <label class="custom-control-label" for="customCheck1">Card</label>
-</div>
-    			</div>
- 			 </div>
- 				 <div class="card">
-   				   <img class="card-img-top" src="images/1200x630bb.jpg" alt="Card image cap">
-    				<div class="card-body">
-    				  <h5 class="card-title">Octopus Card</h5>
-    				  <p class="card-text">Pay here at the machine using your Octopus Card</p>
-    				</div>
-  				  <div class="card-footer">
-   					   <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">Octopus</label>
-</div>
-   				 </div>
-		  </div>
-			  <div class="card">
-    				<img class="card-img-top" src="images/cash-dark.png"alt="Card image cap">
-   					<div class="card-body">
-   					  <h5 class="card-title">Cash</h5>
-   					  <p class="card-text">Pay Cash at the Cash Kiosk</p>
-   					</div>
-   				 <div class="card-footer">
-     			  <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck3">
-  <label class="custom-control-label" for="customCheck3">Cash</label>
-</div>
-   				 </div>
-  </div>
-</div>      
-            <hr class="mb-4">
             <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
           </form>
         </div>
