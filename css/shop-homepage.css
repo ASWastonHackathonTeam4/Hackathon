@@ -22,6 +22,10 @@ body {
 .list-group-item{
 	color: #343A40;
 }
+
 .card-title{
-	color: 
+	color:#182545;
+}
+.card-link{
+	color:#182545;
 }

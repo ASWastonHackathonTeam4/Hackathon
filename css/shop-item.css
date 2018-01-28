@@ -13,3 +13,12 @@ body {
     padding-top: 56px;
   }
 }
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index:2;
+  color:#ffffff;
+  background-color:#343A40;
+  border-color:#343A40;
+}
+.list-group-item{
+	color: #343A40;
+}
