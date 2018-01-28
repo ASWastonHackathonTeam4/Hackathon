@@ -552,7 +552,10 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-
+.brand-name{
+	font-family: Savoye LET;
+	
+}
 .container {
   width: 100%;
   padding-right: 15px;
@@ -3966,12 +3969,14 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  /*padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
+  margin-right: 1rem;*/
+  font-size: 3vw;
+  height :50px;
   white-space: nowrap;
+font-family:'Savoye LET' ;
+	
 }
 
 .navbar-brand:hover, .navbar-brand:focus {

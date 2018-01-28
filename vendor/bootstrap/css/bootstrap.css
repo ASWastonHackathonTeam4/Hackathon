@@ -1,4 +1,11 @@
-/*!
+.carousel .item img {
+   left: -9999px;  /*important */
+   right: -9999px;  /*important */
+   margin: 0 auto;  /*important */
+   max-width: none;  /*important */
+   min-width: 100%;
+   position: absolute;
+}/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -3966,12 +3973,14 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  /*padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
+  margin-right: 1rem;*/
+  font-size: 3vw;
+  height :50px;
   white-space: nowrap;
+	font-family:'Savoye LET' ;
+	
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
